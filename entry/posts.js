@@ -1,0 +1,1 @@
+var Widget = require('lib/widget');

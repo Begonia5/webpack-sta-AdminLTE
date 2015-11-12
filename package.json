@@ -1,0 +1,39 @@
+{
+  "name": "gz-sta",
+  "description": "guazi static",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rm -rf build && gulp",
+    "watch": "gulp watch",
+    "appRev": "gulp appRev"
+  },
+  "author": {
+    "name": "yuxin",
+    "email": "yuxin@ganji.com"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "gulp-react" : "*",
+    "gulp": "*",
+    "duo" : "*",
+    "gulp-uglify": "*",
+    "gulp-plumber": "*",
+    "gulp-rev": "*",
+    "gulp-minify-css": "*",
+    "gulp-rev-replace": "*",
+    "gulp-rev-all": "*",
+    "gulp-watch": "*",
+    "gulp-util": "*",
+    "through2": "*",
+    "gulp-concat": "*",
+    "gulp-rev-delete-original": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-ignore": "*",
+    "gulp-react": "*",
+    "duo-jsx": "*",
+    "gulp-if-else": "*"
+  },
+  "keywords": []
+}
